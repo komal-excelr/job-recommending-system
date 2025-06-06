@@ -34,7 +34,7 @@ st.markdown(
 )
 
 st.title("🔍 Job Recommendation System")
-st.markdown("Paste your **resume** or enter your **skills** below:")
+st.markdown("Paste your **resume content** or enter your **skills** below:")
 
 # Load dataset
 df = pd.read_csv("AML-CA2/jobs.csv")
