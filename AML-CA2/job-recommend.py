@@ -37,7 +37,7 @@ st.title("🔍 Job Recommendation System")
 st.markdown("Paste your **resume** or enter your **skills** below:")
 
 # Load dataset
-df = pd.read_csv("jobs.csv")
+df = pd.read_csv("AML-CA2/jobs.csv")
 vectorizer = TfidfVectorizer(stop_words='english')
 job_tfidf = vectorizer.fit_transform(df["JobDescription"])
 
