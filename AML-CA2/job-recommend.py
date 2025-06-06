@@ -10,7 +10,8 @@ st.markdown(
     """
     <style>
     .stApp {
-        background: linear-gradient(to right, #ff9966, #ffcc66);
+       background: linear-gradient(to right, #11998e, #38ef7d);
+
         padding: 2rem;
     }
     textarea, .stTextInput > div > div {
